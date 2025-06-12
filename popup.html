@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Valyuta Çevirici</title>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        button {
+            width: 100%;
+            padding: 8px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        #status {
+            margin-top: 10px;
+            text-align: center;
+            color: #666;
+        }
+        .rates {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <button id="updateRates">Məzənnələri Yenilə</button>
+    <div class="rates" id="currentRates"></div>
+    <div id="status"></div>
+    <script src="popup.js"></script>
+</body>
+</html>

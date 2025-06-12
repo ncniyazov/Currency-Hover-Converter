@@ -1,0 +1,13 @@
+.azn-tooltip {
+    position: fixed;
+    background: #2c3e50;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 999999;
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    pointer-events: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
