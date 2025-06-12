@@ -2,7 +2,7 @@ const currencyPatterns = [
     { regex: /(\$\s*)([\d.,]+)/g, code: "USD" },
     { regex: /([\d.,]+)(\s*USD|\s*usd|\s*dollar|\s*dolar|\$)/g, code: "USD" },
     { regex: /(₺\s*)([\d.,]+)/g, code: "TRY" },
-    { regex: /([\d.,]+)(\s*TRY|\s*try|\s*tl|\s*lirə|\s*lira|₺)/g, code: "TRY" },
+    { regex: /([\d.,]+)(\s*TRY|\s*try|\s*tl|\s*TL|\s*lirə|\s*lira|₺)/g, code: "TRY" },
     { regex: /(₽\s*)([\d.,]+)/g, code: "RUB" },
     { regex: /([\d.,]+)(\s*RUB|\s*rub|\s*rubl|\s*руб|₽)/g, code: "RUB" }
 ];
